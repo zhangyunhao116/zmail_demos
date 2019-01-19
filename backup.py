@@ -7,7 +7,7 @@ PASSWORD = ""  # Your mail password.(required)
 
 backup_dir = '{}_backup/'.format(USERNAME)
 persist_walk = True
-walk_steps = 10
+walk_steps = 20
 backup_walk_path = backup_dir + '_mail_walk.txt'
 
 srv = zmail.server(USERNAME, PASSWORD)
