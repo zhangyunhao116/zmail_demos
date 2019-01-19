@@ -1,6 +1,7 @@
 <div align=center>
 <img src="https://raw.githubusercontent.com/ZYunH/zmail/master/zmail_logo.png"/>
 </div>
+
 [![PyPI](https://img.shields.io/pypi/v/yagmail.svg?style=flat-square)]()
 [![platform](https://img.shields.io/badge/python-3.5-green.svg)]()
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)]()
