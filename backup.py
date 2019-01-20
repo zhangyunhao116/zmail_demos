@@ -33,10 +33,12 @@ def save_walk(_walk):
         f.write(str(_walk))
 
 
-def safe_str(o):
+def safe_str(o, max_len=231):
     if o is None:
         return ''
     s = str(o).replace('/', ':')
+    if len(s) > max_len:
+        return s[:max_len]
     return s
 
 
